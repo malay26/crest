@@ -1,4 +1,5 @@
 Git command:
+demo of command
 
 1. git config: this command sets the author name and email address respectively to be used with your commits.
 
