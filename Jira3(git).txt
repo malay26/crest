@@ -1,0 +1,61 @@
+Git command:
+
+1. git config: this command sets the author name and email address respectively to be used with your commits.
+
+syntax: git config -global user.name "[name]"
+	git config -global user.email "[email id]"
+
+2. git pull: This command fetches and merges changes on the remote server to your working directory.
+
+syntax: git pull [Repository link]
+
+3. git push: This command sends the committed changes of master branch to your remote repository.
+
+syntax: git pull [variable name] master
+
+4. git init: this command is used to start new repository
+
+syntax: git init [repository name]
+
+5. git clone: this command is used to obtain a repository from an existing URL
+
+syntax: git clone [URL]
+
+6. git add: this command adds a file to staging area.
+
+syntax: git add [file]
+	git add *       this adds one or more to the staging area.
+
+7. git commit: this commands records or snapshots the file permanently in the version history.
+
+syntax: git commit -m "[Type the commet message]"
+	git commit -a         This command commits any files you’ve added with the git add command and also commits any files you’ve changed since then.
+
+8. git diff: shows the file difference which are not yet staged.
+
+syntax: git diff
+	git diff -staged
+	git diff [first branch][second branch]
+
+9. git reset: this command unstages the files, but it preserves the file contents.
+
+syntax: git reset [file]
+	git reset [commit]		This command undoes all the commits after the specified commit and preserves the changes locally.	
+	git reset -hard [commit]	this command discard all history and goes back to the specified commit.
+
+10. git status: this command list all the files that have to be committed.
+
+syntax: git status
+
+11. git log: this command is used to list the verison history for the current branch.
+
+syntax: git log
+	git log -follow[file]
+
+12. git rebase: rebashing is the process of moving or combining a sequence of commit to a new base commit.
+
+syntax: git rebase master
+
+13. git branches: branches in git are incredibly lightweight as well. They are simply pointers to a specific commit- nothing more.
+
+
